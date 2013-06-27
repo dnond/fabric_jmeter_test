@@ -13,7 +13,7 @@ from ClassException import ClassException
 
 def env_vagrant():
 	env.user = 'vagrant'
-	env.hosts = ['127.0.0.1:2200']
+	env.hosts = ['127.0.0.1:2222']
 	env.key_filename = "~/.vagrant.d/insecure_private_key"
 		
 	env.cExecConfig = ExecConfig()
